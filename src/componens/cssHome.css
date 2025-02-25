@@ -1,0 +1,22 @@
+.vidM{
+    margin-top: auto;
+    padding-top: 1cm;
+   display: flex;
+   flex-direction: column; /* Dirección vertical */
+    align-items: center;
+    min-width: 300px; /* Ancho mínimo */
+      min-height: 200px; /* Altura mínima */
+      width: 100vw; /* Ancho basado en la ventana del navegador */
+      height: 60vh; /* Altura basada en la ventana del navegador */
+}
+
+.vidM > div{
+    /* margin: 0 10px; 
+  
+    min-width: 150px;
+    max-height: 40%;
+    max-width: 80%; */
+    width: 80%;
+      height: 80%;
+   
+}
