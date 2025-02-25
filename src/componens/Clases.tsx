@@ -12,7 +12,7 @@ function Clases(){
     return(
         < >
            
-            <div>
+            <div >
             <h1 className="d-flex justify-content-md-center"  style={{paddingTop:'1cm'}}>Clases y Tutorias</h1>
                 <p className="d-flex justify-content-md-center" >
                     En tlamatini ofrecemos un amplio esquema de clases en las diferentes asignaturada de matematicas, fisica, quimica,
@@ -20,7 +20,7 @@ function Clases(){
                 </p>
             </div>
            
-            <div className="row row-cols-1 row-cols-md-2 g-4  d-flex justify-content-md-center" >
+            <div className="row row-cols-1 row-cols-md-2 g-4  d-flex justify-content-md-center"  style={{minHeight:'100%'}}>
                 <div className="col shadow-lg p-3 mb-5 bg-body-tertiary rounded" >
                     <div className="card">
                     <img src={imagenfisica} className="card-img-top"  alt="..."/>
